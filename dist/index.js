@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('util'), require('stream'), require('path'), require('http'), require('https'), require('url'), require('fs'), require('assert'), require('tty'), require('os'), require('zlib'), require('events')) :
 	typeof define === 'function' && define.amd ? define(['exports', 'util', 'stream', 'path', 'http', 'https', 'url', 'fs', 'assert', 'tty', 'os', 'zlib', 'events'], factory) :
-	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["spike-utils"] = {}, global.require$$1, global.stream, global.require$$1$1, global.require$$3, global.require$$4, global.require$$0$1, global.require$$6, global.require$$4$1, global.require$$1$2, global.require$$0$2, global.zlib, global.EventEmitter));
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["link-utils"] = {}, global.require$$1, global.stream, global.require$$1$1, global.require$$3, global.require$$4, global.require$$0$1, global.require$$6, global.require$$4$1, global.require$$1$2, global.require$$0$2, global.zlib, global.EventEmitter));
 })(this, (function (exports, require$$1, stream, require$$1$1, require$$3, require$$4, require$$0$1, require$$6, require$$4$1, require$$1$2, require$$0$2, zlib, EventEmitter) { 'use strict';
 
 	var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
