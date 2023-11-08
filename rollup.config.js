@@ -18,7 +18,7 @@ export default [{
       file: './dist/index.js',
       format: "umd",
       sourcemap: true,
-      name: 'link-utils'
+      name: 'spike-utils'
     }
   ]
 }];
