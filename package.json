@@ -1,6 +1,6 @@
 {
   "name": "spike-utils",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "a common utils",
   "main": "./dist/index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "keywords": [
     "common"
   ],
-  "type": "module",
   "types": "./src/index.ts",
   "author": "spike",
   "license": "ISC",
