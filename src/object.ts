@@ -117,7 +117,7 @@ interface QueueItem {
 }
 
 export class Queue {
-  private waitingQueue = Array<QueueItem>()
+  public waitingQueue = Array<QueueItem>()
   private isRunning = false
   private Execute = async (func: QueueItem['func'], resolve: QueueItem['resolve'], params?: QueueItem['params']) => {
     const indexParams = params || []
